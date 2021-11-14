@@ -72,7 +72,7 @@
         </p>
 
         <p>
-            <label for="">Please select an Entree</label>
+            <label for="meal">Please select an Entree</label>
             <select name="meal" id="meal">
                 <option value="fish">Fish</option>
                 <option value="veg">Vegetarian</option>
@@ -80,7 +80,31 @@
             </select>
         </p>
 
+        <p>
+            <label for="cheese" id="cheese">Amount of Cheese</label>
+            <input type="range" id="cheese" min="1" max="10" name="cheese_level">
+        </p>
+
+        <p>
+            <label for="requests">Any special requests?</label>
+            <textarea name="requests" id="requests" cols="30" rows="10" placeholder="Type something here"></textarea>
+        </p>
+
         <button>Search</button>
+    </form>
+
+    <hr>
+
+    <h2>Validation Demo</h2>
+
+    <form action="/dummy">
+        <label for="first">Enter first name</label>
+        <input type="text" name="first" id="first" required>
+        <p>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" minlength="5" maxlength="20" required>
+        </p>
+        <button>Submit</button>
     </form>
 
 
