@@ -41,3 +41,22 @@ span{
 footer a{
     color: #e63946;
 }
+
+/*
+This is called adjacent selector. I have selected buttons
+that are right after the h2 throughout webpage
+*/
+h2 + button{
+    font-size: 20px;
+    background-color: magenta;
+}
+
+/*
+This is called direct ascedant. Only those that are direct childs will be affected.
+In this example, only hyperlinks that are direct descendants of the
+footer will be affected.
+*/
+
+footer > a {
+    color: blueviolet;
+}
