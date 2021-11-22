@@ -1,3 +1,7 @@
+*{
+    text-decoration: none;
+}
+
 /* * {
     background-color: cyan;
 } */
@@ -36,6 +40,7 @@ span{
 
 .post a {
     color: #457b9d;
+    font-weight: bold;
 }
 
 footer a{
@@ -59,4 +64,37 @@ footer will be affected.
 
 footer > a {
     color: blueviolet;
+}
+
+/* Attribute Selector */
+
+input[type="password"] {
+    color: greenyellow;
+}
+
+/*
+:hover is a psudeo-class. For example, we can make all the hyperlinks
+turn into orange when the cursor hover overs it
+*/
+
+/* a:hover{
+    color:orange;
+} */
+
+.post button:hover{
+    background-color: #e63946;
+    color: #f1faee;
+}
+
+
+.post a:hover{
+    text-decoration: underline;
+}
+
+.post button:active{
+    background-color: #02c39a;
+}
+
+.post:nth-of-type(2n){
+    background-color: #dfe8dc;
 }
