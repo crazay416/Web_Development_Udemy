@@ -98,3 +98,7 @@ turn into orange when the cursor hover overs it
 .post:nth-of-type(2n){
     background-color: #dfe8dc;
 }
+
+h2::first-letter{
+    font-size: 50px;
+}
