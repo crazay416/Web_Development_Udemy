@@ -1,0 +1,39 @@
+/*
+    Block: Block elements break the flow of a document. width,
+    height, margin, and padding are respected
+    
+    Inline: Width and Height are ignored. Margin & Padding push 
+    elements away horizontally but not vertiacally
+    
+    Inline-block: Behaved like an inline element except width,
+    height, margin, and padding are respected
+
+    With inline, you cannot change the width and height, however,
+    with inline-block you can change it
+*/
+
+span{
+    background-color: palevioletred;
+    border: 1px solid black;
+    width: 500px;
+    padding: 10px;
+    margin: 50px;
+}
+
+h1{
+    background-color: paleturquoise;
+    border: 1px solid black;
+    width: 300px;
+    height: 100px;
+    padding: 50px;
+    margin: 100px;
+}
+
+div{
+    height: 200px;
+    width:200px;
+    background-color: olivedrab;
+    border: 3px solid black;
+    display: inline-block;
+    margin: 50px;
+}

@@ -1,0 +1,65 @@
+/*
+
+width: The size of the box content (left to right)
+height: The size of the box content (up and down)
+border-width: How thick the border will be
+border-color: Color of the border
+border-style: Example would be solid, dotted, dashed, etc
+padding: The area between the content box and the border
+margin: The space between the outside of an element and other elements
+
+*/
+
+body{
+    margin: 0;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: #a8dadc;
+}
+
+h1 {
+    background-color: pink;
+    width: 100px;
+    padding-left: 30px;
+    padding-top: 50px;
+    margin-bottom: 0;
+}
+
+#one {
+    background-color: #e76f51;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    /*box-sizing: border-box;*/
+    border-radius: 5%;
+    padding-right: 30px;
+    margin: 10px;
+}
+
+#two {
+    background-color: #00b4d8;
+    border-color: #fb5607;
+    border-width: 3px;
+    border-style: dashed solid;
+    border-left-width: 8px;
+    margin: 10px;
+}
+
+/* 
+   * For border short-hand property, you can do the width | style | color
+   all in one go
+*/
+
+#three {
+    background-color: #4895ef;
+    border: 5px solid #3c6e71;
+    border-left: 8px solid black;
+    margin: 10px;
+}
+
+button{
+    padding: 10px 20px;
+}
