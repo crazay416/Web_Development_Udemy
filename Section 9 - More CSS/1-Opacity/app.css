@@ -1,0 +1,27 @@
+/*
+    rgba is part of background color and the a portion means alpha.
+    This means how transparent the backgroudn color will be. It will
+    not affect anything else in the child if it is a parent
+
+    Opacity is how transparent something can be. It ranges from 0 to 1
+    and it will affect anything inside the parent
+*/
+
+section{
+    width: 500px;
+    height: 500px;
+    background-color: magenta;
+}
+
+#rgba{
+    width: 50%;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#opacity{
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+    opacity: 0.6;
+}
