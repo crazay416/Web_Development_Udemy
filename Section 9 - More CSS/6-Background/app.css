@@ -1,0 +1,14 @@
+section{
+    width: 80%;
+    height: 800px;
+    margin: auto;
+    /* background-image: url("https://static01.nyt.com/images/2019/12/23/nyregion/00nylights1/00nylights1-videoSixteenByNineJumbo1600.jpg");
+    background-size:cover;
+    background-position: top; */
+    background: center/60% no-repeat url("https://static01.nyt.com/images/2019/12/23/nyregion/00nylights1/00nylights1-videoSixteenByNineJumbo1600.jpg"), blueviolet;
+}
+
+h1{
+    font-size: 100px;
+    color: white;
+}
