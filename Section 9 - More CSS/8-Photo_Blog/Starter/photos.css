@@ -1,0 +1,25 @@
+/*
+    The reason why the margin is 1.6 is because we want to
+    have three images per row and each image has two sides,
+    left and right. So since there are 3 images and 2 sides,
+    we have a total of 6 sides. We use 30% as our width
+    because that is what gives us three images per row.
+    Since there is an additional 10% of room left on each
+    row, we divide 10% by 6 to evenly distribute it.
+*/
+
+img{
+    width:30%;
+    /* margin: 1.6%; */
+    margin: calc(10% / 6)
+}
+
+nav{
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    margin-left:  calc(10% / 6);
+    padding: 1em 0;
+    font-family: Raleway;
+    font-size: 1.5em;
+}
