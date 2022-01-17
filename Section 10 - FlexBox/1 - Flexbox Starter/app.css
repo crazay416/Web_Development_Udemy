@@ -1,0 +1,43 @@
+/*
+    CONTENTS:
+    display: flex
+    flex-direction
+    justify-content
+    flex-wrap
+
+    flex-direction: Can make something go from left to right
+    or top to bottom or reverse for both
+
+    Make display as flex
+
+    justify-content runs on the main axis
+
+    align-item runs on the cross axis
+*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+#container {
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow:hidden;
+
+}
+
+#container div{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-size: 4em;
+}
