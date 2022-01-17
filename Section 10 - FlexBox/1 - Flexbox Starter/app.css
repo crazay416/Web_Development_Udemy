@@ -1,14 +1,30 @@
 /*
     CONTENTS:
-    display: flex
-    flex-direction
-    justify-content
-    flex-wrap
-    align-items - Deals with cross axis
-    align-content - Deals with the cross axis
-    align-self - Delas with the cross axis
+    
+    1. display: flex
+    
+    2. flex-direction
+    
+    3. justify-content
+    
+    4. flex-wrap
+    
+    5. align-items - Deals with cross axis
+    
+    6. align-content - Deals with the cross axis
+    
+    7. align-self - Delas with the cross axis
+    
+    8. flex-basis: Defines the initial size of an element
+    before additional space is distributed
 
-    flex-direction: Can make something go from left to right
+    9. flex-grow: Controls the amount of available space an element
+    should take up. Accepts a unit-less number value
+
+    10. flex-shrink: If items are larger than the container, they shrink
+    according to flex-shrink
+
+    11. flex-direction: Can make something go from left to right
     or top to bottom or reverse for both
 
     Make display as flex
@@ -27,14 +43,14 @@ h1 {
 #container {
     background-color: #003049;
     width: 90%;
-    height: 200px;
+    /* height: 200px; */
     margin: 0 auto;
     border: 5px solid #003049;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     /* align-content: center; */
     overflow:hidden;
 }
@@ -44,6 +60,18 @@ h1 {
     height: 200px;
     text-align: center;
     font-size: 4em;
+    flex-basis: 600px;
+    flex-grow: 1;
+    /* max-width: 300px; */
+}
+
+div:nth-of-type(1){
+    /* flex-grow: 1; */
+    flex-shrink: 2;
+}
+
+div:nth-of-type(5){
+    flex-grow: 1;
 }
 
 /* div:nth-of-type(1){
