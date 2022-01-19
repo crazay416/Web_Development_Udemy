@@ -3,13 +3,16 @@
     
     1. display: flex
     
-    2. flex-direction
+    2. flex-direction: Sets how flex items are placed in the flex container
+    defining the main axis and the direction
     
-    3. justify-content
+    3. justify-content: defines how the browser distributes space betweeen
+    and around content items along the main-axis of a flex container
     
-    4. flex-wrap
+    4. flex-wrap: Sets whether flex items are forced onto one line or wrap
+    on multiple lines
     
-    5. align-items - Deals with cross axis
+    5. align-items: It controls the alignment of items on the Cross Axis
     
     6. align-content - Deals with the cross axis
     
